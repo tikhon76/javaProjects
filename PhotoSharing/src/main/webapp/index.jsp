@@ -30,7 +30,7 @@
     <tr>
         <td width="20%" valign="top">
 
-            <a href="index.jsp">..</a>
+            <a href="index.jsp">Home</a>
 
             <% for (File file : PhotoReader.listDirectories(currentDirectory)) { %>
                 <% if (file.isDirectory()) {%> <br> <a href="index.jsp?d=<%=requestDirectory + "\\" + file.getName()%>"><%=file.getName()%></a> <% } %>
